@@ -1,4 +1,4 @@
-var css = document.querySelectorAll("h2")[1];
+const css = document.querySelectorAll("h2")[1];
 const color1 = document.querySelector(".color1");
 const color2 = document.querySelector(".color2");
 const body = document.querySelector(".bWrap");
@@ -10,7 +10,7 @@ changeGradient = () => {
     ", " +
     color2.value +
     ")";
-    
+
     css.textContent = "Left  "+color1.value+"  ,  "+
     color2.value+"  Right";
 };
