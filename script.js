@@ -11,8 +11,7 @@ changeGradient = () => {
     color2.value +
     ")";
 
-    css.textContent = "Left  "+color1.value+"  ,  "+
-    color2.value+"  Right";
+    css.textContent = body.style.background + ";";
 };
 
 // console.log(color2.value);
